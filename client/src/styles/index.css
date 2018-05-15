@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#root {
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+* {
+    font-family: '微软雅黑'
+}

@@ -1,0 +1,76 @@
+.wrapper {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 500;
+    background: rgba(255,255,255,.6);
+}
+
+.hidden {
+    display: none;
+}
+
+.buttons {
+    padding: 8px;
+}
+
+.barrage-input-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: rgba(255,255,255,.6);
+}
+
+.switch-button {
+    font-size: 1.6em;
+    flex: 0 0 10%; 
+    text-align: center; 
+    color: rgb(148,148,148);
+}
+
+.barrage-input {
+    border: 0;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid grey;
+}
+
+.send-barrage {
+    font-size: 1.6em;
+    flex: 0 0 10%;
+    text-align: center;
+    color: rgb(148,148,148)
+}
+
+.return-button {
+    background: #f7f7f7;
+    color: #454545;
+}
+
+.lottery-button {
+    background: #ff9800;
+    color: #f7f7f7
+}
+
+.sign-button {
+    background: #F44336;
+    color: #f7f7f7
+}
+
+.congra-button {
+    background: #2196F3;
+    color: #f7f7f7
+}
+
+.map-button {
+    background: #4CAF50;
+    color: #f7f7f7
+}
+
+.button-icon {
+    margin-right: 5px;
+    text-align: center;
+}

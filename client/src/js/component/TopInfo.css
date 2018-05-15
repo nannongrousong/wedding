@@ -1,0 +1,50 @@
+
+.hidden {
+    display: none;
+}
+
+.wrapper {
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+
+.content {
+    padding: 10px;
+    background: #f7f7f7;
+    font-size: 0.9em;
+}
+
+.show, .hide {
+    position: relative;
+    left: 10px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.show .line, .hide .line {
+    margin: 0 auto;
+    width: 6px;
+    height: 30px;
+    background: #f7f7f7;
+}
+
+.show .circle, .hide .circle {
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 0 0 4px #f7f7f7;
+}
+
+.hide .circle {
+    text-align: center;
+    border: 0;
+    line-height: 16px;
+    vertical-align: middle;
+}
