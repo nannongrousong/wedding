@@ -2,7 +2,6 @@
   "name": "wedding",
   "version": "1.0.0",
   "description": "Do something at a wedding",
-  "main": "index.js",
   "scripts": {
     "dev-server": "set NODE_ENV=development && webpack-dev-server --config ./config/webpack.dev.config.js --progress",
     "build": "set NODE_ENV=production && webpack --config ./config/webpack.production.config.js --progress",
